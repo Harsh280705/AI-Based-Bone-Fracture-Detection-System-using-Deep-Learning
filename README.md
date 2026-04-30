@@ -2,21 +2,15 @@
 📌 Overview
 
 This project presents an AI-based system for detecting and classifying bone fractures from X-ray images. Traditional diagnosis relies heavily on human interpretation, which can sometimes lead to errors.
+
 To address this, the system uses deep learning models to assist in accurate and faster fracture detection, helping improve medical diagnosis workflows.
 
 ⚙️ Features
-
-Detects fractures from X-ray images. 
-
-Classifies bone type (Elbow, Hand, Shoulder). 
-
-Two-stage prediction system using deep learning. 
-
-GUI-based application for easy interaction. 
-
-Uses real medical dataset (MURA). 
-
-
+Detects fractures from X-ray images
+Classifies bone type (Elbow, Hand, Shoulder)
+Two-stage prediction system using deep learning
+GUI-based application for easy interaction
+Uses real medical dataset (MURA)
 📊 Dataset
 
 We use the MURA v1 (Kaggle)
@@ -24,7 +18,9 @@ https://www.kaggle.com/datasets/tommyngx/mura-v1
 
 The dataset contains approximately 40,000 X-ray images.
 It includes multiple bone types such as elbow, finger, forearm, hand, humerus, shoulder, and wrist.
+
 👉 In this project, we focus only on:
+
 Elbow
 Shoulder
 Hand / Wrist
@@ -34,29 +30,24 @@ Hand / Wrist
 The system follows a two-step pipeline:
 
 Preprocessing & Augmentation
-
 Image resizing, normalization, horizontal flipping
 
 1. Bone Type Classification
-   
 Uses ResNet50 to identify bone type
 
 2. Fracture Detection
-   
 Loads a specialized model for each bone type
-
 Predicts whether the bone is fractured or normal
-
-This approach improves accuracy by combining general classification with specialized detection models.
-
 
 📈 Results
 Achieved promising accuracy across all bone types
 Separate models trained for elbow, hand, and shoulder
-Although results are slightly below the desired confidence threshold, they show strong potential for further improvement.
+Although results are slightly below the desired confidence threshold, they show strong potential for further improvement
 
 🖥️ GUI Preview
+
 The system includes a simple interface for:
+
 Uploading X-ray images
 Viewing predictions (Normal / Fractured)
 
@@ -71,6 +62,7 @@ pip install -r requirements.txt
 python mainGUI.py
 
 🛠️ Tech Stack
+
 Python
 TensorFlow / Keras
 NumPy, Pandas
