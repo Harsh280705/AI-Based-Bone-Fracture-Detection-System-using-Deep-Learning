@@ -7,10 +7,15 @@ To address this, the system uses deep learning models to assist in accurate and 
 ⚙️ Features
 
 Detects fractures from X-ray images. 
+
 Classifies bone type (Elbow, Hand, Shoulder). 
+
 Two-stage prediction system using deep learning. 
+
 GUI-based application for easy interaction. 
+
 Uses real medical dataset (MURA). 
+
 
 📊 Dataset
 
