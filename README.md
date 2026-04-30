@@ -6,18 +6,18 @@ To address this, the system uses deep learning models to assist in accurate and 
 
 ⚙️ Features
 
-Detects fractures from X-ray images
-Classifies bone type (Elbow, Hand, Shoulder)
-Two-stage prediction system using deep learning
-GUI-based application for easy interaction
-Uses real medical dataset (MURA)
+Detects fractures from X-ray images. 
+Classifies bone type (Elbow, Hand, Shoulder). 
+Two-stage prediction system using deep learning. 
+GUI-based application for easy interaction. 
+Uses real medical dataset (MURA). 
 
 📊 Dataset
 
 We use the MURA v1 (Kaggle)
 https://www.kaggle.com/datasets/tommyngx/mura-v1
 
-The dataset contains approximately 40,000 X-ray images:
+The dataset contains approximately 40,000 X-ray images.
 It includes multiple bone types such as elbow, finger, forearm, hand, humerus, shoulder, and wrist.
 👉 In this project, we focus only on:
 Elbow
