@@ -10,6 +10,7 @@ Classifies bone type (Elbow, Hand, Shoulder)
 Two-stage prediction system using deep learning
 GUI-based application for easy interaction
 Uses real medical dataset (MURA)
+
 📊 Dataset
 
 We use the MURA v1 (Kaggle)
