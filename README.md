@@ -67,9 +67,13 @@ python mainGUI.py
 🛠️ Tech Stack
 
 Python
+
 TensorFlow / Keras
+
 NumPy, Pandas
+
 Matplotlib
+
 CustomTkinter (GUI)
 
 ⚠️ Disclaimer
