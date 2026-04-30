@@ -1,5 +1,4 @@
 🦴 Bone Fracture Detection using Deep Learning
-📌 Overview
 
 This project presents an AI-based system for detecting and classifying bone fractures from X-ray images. Traditional diagnosis relies heavily on human interpretation, which can sometimes lead to errors.
 
