@@ -40,8 +40,11 @@ Loads a specialized model for each bone type
 Predicts whether the bone is fractured or normal
 
 📈 Results
+
 Achieved promising accuracy across all bone types
+
 Separate models trained for elbow, hand, and shoulder
+
 Although results are slightly below the desired confidence threshold, they show strong potential for further improvement
 
 🖥️ GUI Preview
