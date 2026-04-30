@@ -68,10 +68,9 @@ Viewing predictions (Normal / Fractured)
 
 OUTPUT
 
-<img width="2560" height="1525" alt="Screenshot (3682)" src="https://github.com/user-attachments/assets/2a564d1a-15b4-45ff-8cda-4f971d4e0ff6" />
+<img width="2560" height="1525" alt="UPLOADED OUTPUTS (1)" src="https://github.com/user-attachments/assets/5a9eed94-1286-4348-87ff-76bb95df5eec" />
 
-<img width="2560" height="1525" alt="Screenshot (3682)" src="https://github.com/user-attachments/assets/424b7c9a-cc14-4d17-8d15-d135b9147ec0" />
-
+<img width="1541" height="224" alt="UPLOADED OUTPUTS (2)" src="https://github.com/user-attachments/assets/6039bb5f-3061-459e-b76a-3e588772088b" />
 
 🚀 How to Run
 # 1. Clone the repository
