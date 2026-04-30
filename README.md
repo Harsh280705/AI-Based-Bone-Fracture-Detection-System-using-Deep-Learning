@@ -30,18 +30,25 @@ Shoulder
 Hand / Wrist
 
 🧠 Methodology
+
 The system follows a two-step pipeline:
 
 Preprocessing & Augmentation
+
 Image resizing, normalization, horizontal flipping
 
 1. Bone Type Classification
+   
 Uses ResNet50 to identify bone type
 
 2. Fracture Detection
+   
 Loads a specialized model for each bone type
+
 Predicts whether the bone is fractured or normal
+
 This approach improves accuracy by combining general classification with specialized detection models.
+
 
 📈 Results
 Achieved promising accuracy across all bone types
