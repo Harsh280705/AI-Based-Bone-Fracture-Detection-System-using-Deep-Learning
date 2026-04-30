@@ -1,0 +1,182 @@
+# ============================================================================
+# VIRTUAL ENVIRONMENTS
+# ============================================================================
+venv/
+env/
+ENV/
+.venv
+venv.bak/
+env.bak/
+poetry.lock
+Pipfile.lock
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytype/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================================================
+# IDE & EDITORS
+# ============================================================================
+.vscode/
+.idea/
+.vscode-server/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.code-workspace
+.env.local
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.iml
+.netbeans/
+.c9/
+
+# ============================================================================
+# MODEL WEIGHTS (too large for GitHub)
+# ============================================================================
+weights/*.h5
+weights/*.keras
+weights/*.pb
+weights/*.pkl
+weights/*.pickle
+*.h5
+*.keras
+*.pb
+
+# ============================================================================
+# DATA & GENERATED OUTPUTS
+# ============================================================================
+Dataset/
+dataset/
+plots/
+PredictResults/
+test/
+predictions_output/
+output/
+results/
+*.log
+*.tmp
+*.temp
+checkpoint/
+checkpoints/
+
+# ============================================================================
+# ENVIRONMENT VARIABLES & SECRETS
+# ============================================================================
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+secrets/
+credentials/
+keys/
+.aws/
+.kube/
+
+# ============================================================================
+# OS SPECIFIC
+# ============================================================================
+# macOS
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+.TemporaryItems
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# ============================================================================
+# EDITOR LOCKFILES
+# ============================================================================
+.jsfmtignore
+.prettierignore
+.eslintignore
+
+# ============================================================================
+# VERSION CONTROL
+# ============================================================================
+.git/
+.gitmodules
+
+# ============================================================================
+# CI/CD
+# ============================================================================
+.github/workflows/secrets
+.gitlab-ci.yml.bak
+.travis.yml.bak
+
+# ============================================================================
+# DOCKER
+# ============================================================================
+docker-compose.override.yml
+.dockerignore.bak
+
+# ============================================================================
+# JUPYTER NOTEBOOKS
+# ============================================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================================
+# MISCELLANEOUS
+# ============================================================================
+.vscode-remote/
+.remote
+*.lnk
+*.gzip
+*.zip
+*.rar
+**/node_modules/
+.eslintcache
