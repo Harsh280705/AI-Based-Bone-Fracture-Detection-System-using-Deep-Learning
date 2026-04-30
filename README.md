@@ -47,23 +47,6 @@ Separate models trained for elbow, hand, and shoulder
 
 Although results are slightly below the desired confidence threshold, they show strong potential for further improvement
 
-🖥️ GUI Preview
-
-The system includes a simple interface for:
-
-Uploading X-ray images
-Viewing predictions (Normal / Fractured)
-
-🚀 How to Run
-# 1. Clone the repository
-git clone <repo-link>
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the application
-python mainGUI.py
-
 🛠️ Tech Stack
 
 Python
@@ -75,6 +58,31 @@ NumPy, Pandas
 Matplotlib
 
 CustomTkinter (GUI)
+
+🖥️ GUI Preview
+
+The system includes a simple interface for:
+
+Uploading X-ray images
+Viewing predictions (Normal / Fractured)
+
+OUTPUT
+
+<img width="2560" height="1525" alt="Screenshot (3682)" src="https://github.com/user-attachments/assets/2a564d1a-15b4-45ff-8cda-4f971d4e0ff6" />
+
+<img width="2560" height="1525" alt="Screenshot (3682)" src="https://github.com/user-attachments/assets/424b7c9a-cc14-4d17-8d15-d135b9147ec0" />
+
+
+🚀 How to Run
+# 1. Clone the repository
+git clone <repo-link>
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the application
+python mainGUI.py
+
 
 ⚠️ Disclaimer
 
