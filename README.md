@@ -39,6 +39,8 @@ Uses ResNet50 to identify bone type
 Loads a specialized model for each bone type
 Predicts whether the bone is fractured or normal
 
+We used a pre-trained ResNet50 model for feature extraction and applied transfer learning to fine-tune it on the MURA dataset. We then trained separate models for bone classification and fracture detection.
+
 📈 Results
 
 Achieved promising accuracy across all bone types
